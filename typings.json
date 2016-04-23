@@ -2,7 +2,7 @@
   "name": "redis",
   "main": "index.d.ts",
   "homepage": "https://github.com/NodeRedis/node_redis",
-  "version": "",
+  "version": "0.12.1",
   "devDependencies": {
     "blue-tape": "registry:npm/blue-tape#0.1.0+20160322235613"
   },

@@ -1,3 +1,9 @@
+// Type definitions for redis 0.12.1
+// Project: https://github.com/mranney/node_redis
+// Originally definitions by: Carlos Ballesteros Velasco <https://github.com/soywiz>, Peter Harris <https://github.com/CodeAnimal>, TANAKA Koichi <https://github.com/MugeSo>
+// Originally definitions: https://github.com/DefinitelyTyped/DefinitelyTyped
+// Originally imported from: https://github.com/soywiz/typescript-node-definitions/redis.d.ts
+
 declare var redis:redis.RedisStatic;
 
 declare namespace redis {
