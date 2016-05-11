@@ -637,13 +637,14 @@ declare namespace redis {
     }
 
     interface RedisStatic {
-        debug_mode:boolean;
+        debug_mode: boolean;
 
-        createClient(port_arg:number, host_arg?:string, options?:redis.ClientOpts):RedisClient;
-        createClient(unix_socket:string, options?:redis.ClientOpts):RedisClient;
-        createClient(options?:redis.ClientOpts):RedisClient;
+        createClient(port_arg:number, host_arg?:string, options?:redis.ClientOpts): RedisClient;
+        createClient(unix_socket:string, options?:redis.ClientOpts): RedisClient;
+        createClient(options?:redis.ClientOpts): RedisClient;
+        createClient(url:string): RedisClient;
 
-        print(err:Error, reply:any):void;
+        print(err:Error, reply:any): void;
     }    
 }
 
