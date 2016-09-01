@@ -1197,11 +1197,11 @@ declare namespace redis {
     /**
      * Mark the start of a transaction block.
      */
-    multi (args: Array<any[]>): Multi;
-    MULTI (args: Array<any[]>): Multi;
+    multi (args?: Array<Array<string | number | Callback<any>>>): Multi;
+    MULTI (args?: Array<Array<string | number | Callback<any>>>): Multi;
 
-    batch (args: Array<any[]>): Multi;
-    BATCH (args: Array<any[]>): Multi;
+    batch (args?: Array<Array<string | number | Callback<any>>>): Multi;
+    BATCH (args?: Array<Array<string | number | Callback<any>>>): Multi;
   }
 
   export var Multi: {
