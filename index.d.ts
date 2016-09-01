@@ -1191,7 +1191,9 @@ declare namespace redis {
 
     duplicate (options?: ClientOptions, cb?: Callback<RedisClient>): RedisClient;
 
+    sendCommand (command: string, cb?: Callback<any>): boolean;
     sendCommand (command: string, args?: any[], cb?: Callback<any>): boolean;
+    send_command (command: string, cb?: Callback<any>): boolean;
     send_command (command: string, args?: any[], cb?: Callback<any>): boolean;
 
     /**
