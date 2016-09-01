@@ -500,14 +500,14 @@ declare namespace redis {
     /**
      * Set the string value of a hash field.
      */
-    hset (key: string, field: string, value: string | number, cb?: Callback<number>): R;
-    HSET (key: string, field: string, value: string | number, cb?: Callback<number>): R;
+    hset (key: string, field: string, value: string, cb?: Callback<number>): R;
+    HSET (key: string, field: string, value: string, cb?: Callback<number>): R;
 
     /**
      * Set the value of a hash field, only if the field does not exist.
      */
-    hsetnx (key: string, field: string, value: string | number, cb?: Callback<number>): R;
-    HSETNX (key: string, field: string, value: string | number, cb?: Callback<number>): R;
+    hsetnx (key: string, field: string, value: string, cb?: Callback<number>): R;
+    HSETNX (key: string, field: string, value: string, cb?: Callback<number>): R;
 
     /**
      * Get the length of the value of a hash field.
