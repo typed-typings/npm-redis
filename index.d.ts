@@ -788,8 +788,8 @@ declare namespace redis {
     /**
      * Get the number of members in a set.
      */
-    scard (key: string, cb?: Callback<string>): R;
-    SCARD (key: string, cb?: Callback<string>): R;
+    scard (key: string, cb?: Callback<number>): R;
+    SCARD (key: string, cb?: Callback<number>): R;
 
     /**
      * DEBUG - Set the debug mode for executed scripts.
