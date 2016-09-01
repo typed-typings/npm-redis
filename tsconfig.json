@@ -5,10 +5,6 @@
     "outDir": "out"
   },
   "exclude": [
-    "node_modules",
-    "typings/browser",
-    "typings/browser.d.ts",
-    "out/browser.d.ts",
-    "source"
+    "node_modules"
   ]
 }
