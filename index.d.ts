@@ -464,8 +464,8 @@ declare namespace redis {
     /**
      * Get all fields and values in a hash.
      */
-    hgetall (key: string, cb: Callback<{ [key: string]: string }>): R;
-    HGETALL (key: string, cb: Callback<{ [key: string]: string }>): R;
+    hgetall (key: string, cb?: Callback<{ [key: string]: string }>): R;
+    HGETALL (key: string, cb?: Callback<{ [key: string]: string }>): R;
 
     /**
      * Increment the integer value of a hash field by the given number.
